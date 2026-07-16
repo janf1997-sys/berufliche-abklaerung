@@ -29,6 +29,12 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: var(--accent-soft) var(--bg-main);
+  scrollbar-width: thin;
+}
+
 .tile {
   position: relative;
   display: block;
@@ -94,10 +100,8 @@
   opacity: 1;
 }
 
-html,
 body {
   background-color: var(--bg-main);
-  scroll-behavior: smooth;
 }
 
 header {
