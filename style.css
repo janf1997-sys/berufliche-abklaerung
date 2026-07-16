@@ -44,6 +44,11 @@ html {
   border-radius: 12px;
   background-color: var(--bg-main);
   transform: translateZ(0);
+  transition: box-shadow 0.4s ease;
+}
+
+.tile:hover {
+  box-shadow: 0 0 0 2px var(--accent-action);
 }
 
 .tiles-container {
