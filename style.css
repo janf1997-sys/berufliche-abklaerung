@@ -90,7 +90,8 @@
   opacity: 1;
 }
 
-html {
+html,
+body {
   background-color: var(--bg-main);
 }
 
