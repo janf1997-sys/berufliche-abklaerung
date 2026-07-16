@@ -1,3 +1,13 @@
+.root {
+  --bg-main: #1c1b22; /* Shadow Grey */
+  --bg-card: #25242d;
+  --text-title: #f0edee;  /* Platinum */
+  --text-body: #aeaab1;   /* Pale Slate */
+  --accent-action: #52d1dc;   /* Cyan */
+  --accent-soft: #c59849;   /* Bronze */
+}
+
+
 /* lato-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -82,7 +92,7 @@
 }
 
 html {
-  background-color: #202020;
+  background-color: var(--bg-main);
 }
 
 header {
