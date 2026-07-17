@@ -129,7 +129,7 @@ h1 {
 }
 
 .logo {
-  justify-self: left;
+  justify-self: center;
 }
 .hero-section {
   display: flex;
