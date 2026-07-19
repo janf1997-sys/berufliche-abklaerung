@@ -58,7 +58,7 @@ html {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 150px;
+  padding: 20px 20px 250px 20px;
   margin: 0 auto;
 }
 
@@ -141,4 +141,57 @@ h1 {
 
 .header-spacer {
   justify-self: end;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.berufe ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 40px;
+}
+
+.berufe {
+  color: var(--text-body);
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  padding: 20px;
+  margin: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.berufe-titel {
+  padding-bottom: 15px;
+}
+
+.berufe-link {
+  text-decoration: none;
+  color: var(--accent-action);
+  font-size: 2.5rem;
+}
+
+#entwickler-digital {
+  height: 100vh;
+  padding-top: 40vh;
+}
+
+#informatiker {
+  height: 100vh;
+  padding-top: 40vh;
+}
+
+#ict-fachmann {
+  height: 100vh;
+  padding-top: 40vh;
 }
