@@ -205,3 +205,16 @@ h1 {
 .berufe-link:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 768px) {
+  .berufe {
+    grid-template-columns: 1fr;
+    padding-top: 15vh;
+    gap: 30px;
+    height: auto;
+    min-height: 100vh;
+  }
+  .berufe-titel {
+    margin-left: 0;
+  }
+}
