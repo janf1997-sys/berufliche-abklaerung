@@ -213,6 +213,8 @@ h1 {
     gap: 30px;
     height: auto;
     min-height: 100vh;
+    padding-left: 24px;
+    padding-right: 24px;
   }
   .berufe-titel {
     margin-left: 0;
