@@ -183,7 +183,8 @@ h1 {
   gap: 60px;
   align-items: start;
   border-top: 1px solid var(--accent-action);
-  padding-top: 40px;
+  padding-top: 40vh;
+  height: 100vh;
 }
 
 .berufe-titel {
@@ -203,19 +204,4 @@ h1 {
 }
 .berufe-link:hover {
   opacity: 0.8;
-}
-
-#entwickler-digital {
-  height: 100vh;
-  padding-top: 40vh;
-}
-
-#informatiker {
-  height: 100vh;
-  padding-top: 40vh;
-}
-
-#ict-fachmann {
-  height: 100vh;
-  padding-top: 40vh;
 }
