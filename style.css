@@ -182,9 +182,22 @@ h1 {
   grid-template-columns: 1fr 1.5fr;
   gap: 60px;
   align-items: start;
-  border-top: 1px solid var(--accent-action);
   padding-top: 40vh;
   height: 100vh;
+  position: relative;
+}
+
+.berufe::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--accent-action);
+  box-shadow:
+    0 0 5px var(--accent-action),
+    0 0 15px var(--accent-action);
 }
 
 .berufe-titel {
