@@ -209,8 +209,8 @@ h1 {
   height: 60px;
   background: radial-gradient(
     ellipse at center,
-    rgba(82, 209, 220, 0.4) 0%,
-    rgba(82, 209, 220, 0.1) 40%,
+    rgba(82, 209, 220, 0.7) 0%,
+    rgba(82, 209, 220, 0.2) 40%,
     transparent 70%
   );
   pointer-events: none;
